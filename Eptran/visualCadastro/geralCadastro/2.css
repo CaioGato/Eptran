@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 3;
+    padding: 0;
+    background-color: #c7c7c7;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+}
+
+#usu {
+    margin-top: 50px;
+    text-align: center;
+
+}
