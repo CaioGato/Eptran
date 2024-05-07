@@ -1,0 +1,23 @@
+body{
+    background-color:#ffffff;
+
+}
+header{
+    background-color:#093774;
+}
+#sec{
+    display: contents;
+}
+#imag{
+    margin-left: 85%;
+}
+#titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+}
+button {
+    all: unset;
+    cursor: pointer;
+    outline: revert;
+  }
