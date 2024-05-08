@@ -7,38 +7,37 @@
     <script src="/scriptLogin/scriptLogin.js"></script>
 </head>
 <body>
-    <div id="container">
-        <div>
-            <p id="EPTRAN">EPTRAN</p>
+    <div>
+        <div id="EPTRAN">
+            <p>EPTRAN</p>
         </div>
-        <section>
-
-            <div id="foto">
-                <img src="/visualLogin/imagensLogin/cara.png" alt="">
-                <p id="login">LOGIN</p>
-            </div>
-            <form id="pai">
-                <div class="campo">
-                    <label for="name">Nome:</label><br>
-                    <input type="text" id="name" name="name"><br>
-                </div>
-                <div class="campo">
-                    <label for="senha">Senha:</label><br>
-                    <input type="password" id="senha" name="senha"><br>
-                </div>
-                <div id="btn">
-                    <button id="processa" type="button" onclick="salvarDados()">Entrar</button>
-                </div>
-                <div class="ESS">
-                    <div >
-                        <a link rel="stylesheet" href="" >Esueceu sua senha?</a>
+            <div class="login-box">
+                <form>
+                    <div id="foto">
+                        <img src="/visualLogin/imagensLogin/cara.png" alt="">
+                        <p id="login">LOGIN</p>
                     </div>
+                    <div class="user-box">
+                    <input type="text" name="name" required="name">
+                    <label for="name">Matrícula</label>
+                    </div>
+                    <div class="user-box">
+                    <input type="password" name="senha" required="senha">
+                    <label for="senha">Senha</label>
+                    </div><center>
+                        <button id="processa" type="button" onclick="salvarDados()">ENTRAR</button>
+                    <span></span>
+                    </a></center>
                     <div class="ESS">
-                        <a link rel="stylesheet" href="" >Cadastre-se:</a>
+                        <div >
+                            <a link rel="stylesheet" href="" ><u>Esueceu sua senha?</u></a>
+                        </div>
+                        <div class="ESS">
+                            <a link rel="stylesheet" href="" ><u>Cadastre-se:</u></a>
+                        </div>
                     </div>
                 </div>
             </form>
-        </section>
     </div>    
 </body>
 </html>

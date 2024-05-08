@@ -8,18 +8,18 @@ function salvarDados(){
         senha: senha,
     }
     
-    document.getElementById('mostra-nome').textContent = name
+    document.getElementById('mostra-name').textContent = name
     document.getElementById('mostra-senha').textContent = senha
     console.log(usuario);
     
 }
 
 function validarFormulario() {
-    var nome = document.getElementById('name').value.trim();
+    var name = document.getElementById('name').value.trim();
     var senha = document.getElementById('senha').value.trim();
 
-    if (nome === '') {
-        alert('Por favor, insira seu nome.');
+    if (name === '') {
+        alert('Por favor, insira sua matrícula.');
         return false;
     }
 
@@ -28,17 +28,6 @@ function validarFormulario() {
         return false;
     }
 
-    window.location.href = './index2.html'
+    window.location.href = './login2.html'
     return true;
-}
-
-function salvarDados() {
-    if (validarFormulario()) {
-        var nome = document.getElementById('name').value.trim();
-        var senha = document.getElementById('senha').value.trim();
-        var data = {
-            nome: nome,
-            senha: senha
-        };
-    }
 }
