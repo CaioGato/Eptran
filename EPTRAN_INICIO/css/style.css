@@ -1,23 +1,34 @@
 body{
     background-color:#ffffff;
-
 }
 header{
     background-color:#093774;
 }
 #sec{
-    display: contents;
+    display: flex;
+    justify-content: space-around;
 }
-#imag{
-    margin-left: 85%;
-}
-#titulo{
+#eptran{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
     color: white;
+    align-items: center;
+    justify-content: center;
 }
 button {
     all: unset;
     cursor: pointer;
     outline: revert;
-  }
+}
+#linhainicio{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+#title{
+    margin-left: 5%;
+    text-align:left;
+    color:black;
+    background-color:white;
+    text-decoration:underline;
+}
