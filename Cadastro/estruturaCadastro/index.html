@@ -2,43 +2,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/visualCadastro/geralCadastro/1.css">
+    <link rel="stylesheet" href="/Cadastro/visualCadastro/geralCadastro/1.css">
     <title>Atividade Login</title>
-    <script src="/scriptCadastro/script.js"></script>
+    <script src="/scriptLogin/scriptLogin.js"></script>
 </head>
 <body>
-    <div id="container">
-        <div>
-            <p id="EPTRAN">EPTRAN</p>
+    <div>
+        <div id="EPTRAN">
+            <p>EPTRAN</p>
         </div>
-        <section>
+            <div class="login-box">
+                <form>
+                    <div id="foto">
+                        <img src="/Login/visualLogin/imagensLogin/cara.png" alt="">
+                        <p id="cadastro">Cadastro</p>
+                    </div>
+                    <div class="user-box">
+                        <input type="password" name="name" required="name">
+                        <label for="name"><b class="b">*</b>  Nome Completo</label>
+                    </div><center>
+                    <div class="date-box">
+                        <input type="date" name="name" required="name">
+                        <label for="nascimento"><b class="b">*</b>  Data de Nascimento</label>
+                    </div><center>
+                    <div class="user-box">
+                        <input type="text" name="matricula" required="matricula">
+                        <label for="matricula"><b class="b">*</b> Matrícula</label>
+                    </div>
+                    <br>
+                    <div class="user-box">
+                        <input type="password" name="senha" required="senha">
+                        <label for="senha"><b class="b">*</b>  Senha</label>
+                    </div><center>
+                    <div class="user-box">
+                        <input type="password" name="senha" required="senha">
+                        <label for="senha"><b class="b">*</b>  Cofirmar Senha</label>
+                    </div><center>
 
-            <div id="foto">
-                <img src="/Visual/imagensCadastro/cara.png" alt="">
-                <p id="login">LOGIN</p>
-            </div>
-            <form id="pai">
-                <div class="campo">
-                    <label for="name">Nome:</label><br>
-                    <input type="text" id="name" name="name"><br>
-                </div>
-                <div class="campo">
-                    <label for="senha">Senha:</label><br>
-                    <input type="password" id="senha" name="senha"><br>
-                </div>
-                <div id="btn">
-                    <button id="processa" type="button" onclick="salvarDados()">Entrar</button>
-                </div>
-                <div class="ESS">
-                    <div >
-                        <a link rel="stylesheet" href="" >Esueceu sua senha?</a>
-                    </div>
-                    <div class="ESS">
-                        <a link rel="stylesheet" href="" >Cadastre-se:</a>
-                    </div>
+                    <button id="processa" type="button" onclick="salvarDados()">ENTRAR</button>
+                    <span></span>
+                    </a></center>
                 </div>
             </form>
-        </section>
     </div>    
 </body>
 </html>
