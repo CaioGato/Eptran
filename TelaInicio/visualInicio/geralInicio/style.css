@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color:#093774;
+    color: antiquewhite;
+    transform: scale(5);
+}
+#pag{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+}
+  .c-loader {
+    justify-content: center;
+    animation: is-rotating 1s infinite;
+    border: 6px solid #e5e5e5;
+    border-radius: 50%;
+    border-top-color: #093774;
+    height: 50px;
+    width: 50px;
+  }
+
+  @keyframes is-rotating {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+
