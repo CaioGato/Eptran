@@ -4,7 +4,8 @@ body {
     display: flex;
     justify-content: center;
     height: 100vh;
-    margin-top: 6%;
+    margin-top: -7%;
+    margin-bottom: 15%;
 }
 
 button {
@@ -165,6 +166,7 @@ button:hover {
     border-bottom: 1px solid #000000;
     outline: none;
     background: transparent;
+    transition: .5s;
 }
   
 .date-box label {
@@ -189,5 +191,4 @@ button:hover {
 .date-box input:focus,
 .date-box input:valid {
     color:#696969;
-
 }
