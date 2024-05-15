@@ -1,6 +1,12 @@
 body{
     background-color:#ffffff;
+    background-image: url(../imagensEptranInicio/rua.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+
 }
+
 header{
     background-color:#093774;
 }
@@ -13,6 +19,7 @@ header{
     color: white;
     align-items: center;
     justify-content: center;
+    height: 30%;
 }
 button {
     all: unset;
