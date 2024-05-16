@@ -11,39 +11,36 @@
         <div id="EPTRAN">
             <p>EPTRAN</p>
         </div>
-            <div class="login-box">
-                <form>
-                    <div id="foto">
-                        <img src="/styles/imagens/Cara.png" alt="">
-                        <p id="cadastro">Cadastro</p>
-                    </div>
-                    <div class="user-box">
-                        <input type="text" name="name" required="name">
-                        <label for="name"><b class="b">*</b>  Nome Completo</label>
-                    </div><center>
-                    <div class="date-box">
-                        <input type="date" name="name" required="name">
-                        <label for="nascimento"><b class="b">*</b>  Data de Nascimento</label>
-                    </div><center>
-                    <div class="user-box">
-                        <input type="text" name="matricula" required="matricula">
-                        <label for="matricula"><b class="b">*</b> Matrícula</label>
-                    </div>
-                    <br>
-                    <div class="user-box">
-                        <input type="password" name="senha" required="senha">
-                        <label for="senha"><b class="b">*</b>  Senha</label>
-                    </div><center>
-                    <div class="user-box">
-                        <input type="password" name="senha" required="senha">
-                        <label for="senha"><b class="b">*</b>  Cofirmar Senha</label>
-                    </div><center>
-
-                    <button id="processa" type="button" onclick="salvarDados()">ENTRAR</button>
-                    <span></span>
-                    </a></center>
+        <div class="login-box">
+            <form action="" id="formulario" method="post" name="formulario">
+                <div id="foto">
+                    <img src="/styles/imagens/Cara.png" alt="">
+                    <p id="cadastro">Cadastro</p>
                 </div>
+                <div class="user-box">
+                    <input type="text" name="nome" required="nome">
+                    <label for="nome"><b class="b">*</b>  Nome Completo</label>
+                </div><center>
+                <div class="date-box">
+                    <input type="date" name="nascimento" required="nascimento">
+                     <label for="nascimento"><b class="b">*</b>  Data de Nascimento</label>
+                 </div><center>
+                <div class="user-box">
+                    <input type="text" name="matricula" required="matricula">
+                    <label for="matricula"><b class="b">*</b> Matrícula</label>
+                </div>
+                <br>
+                <div class="user-box">
+                    <input type="password" name="senha" required="senha">
+                    <label for="senha"><b class="b">*</b>  Senha</label>
+                </div><center>
+                <div class="user-box">
+                    <input type="password" name="confirmarSenha" required="confirmarSenha">
+                    <label for="confirmarSenha"><b class="b">*</b>  Cofirmar Senha</label>
+                </div><center>
+                <button id="processa" type="button" onclick="validarFormulario()">ENTRAR</button>
             </form>
+        </div>
     </div>    
 </body>
 </html>
