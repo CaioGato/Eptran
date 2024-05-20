@@ -10,21 +10,19 @@ body {
 
 header {
     background-color:#093774;
+
 }
 
 #sec {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
 #eptran {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
-    align-items: center;
-    justify-content: center;
-    height: 30%;
-    padding-left: 20%;
+    text-align: center;
 }
 
 button {
@@ -42,13 +40,13 @@ button {
 
 #title {
     margin-left: 5%;
-    text-align:left;
+    text-align:justify;
     color:black;
     background-color:white;
     text-decoration:underline;
 }
 
+
 #logopref img {
     width: 75%;
-    padding-left: 20%;
 }
