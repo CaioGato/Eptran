@@ -1,15 +1,17 @@
-body{
+body {
     background-color:#ffffff;
     background-image: url(imagens/Rua.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 600px;
+    margin: 0%;
 
 }
-header{
+header {
     background-color:#093774;
 }
-#sec{
+
+#sec {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,28 +21,31 @@ header{
 }
 #logopref{
     margin-right: 2%;
+    justify-content: center;
+    align-items: center;
 }
-#eptran{
+
+#eptran {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
-    align-items: center;
-    justify-content: center;
-    height: 30%;
+    text-align: center;
 }
+
 button {
     all: unset;
     cursor: pointer;
     outline: revert;
 }
-#linhainicio{
+
+#linhainicio {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     color: white;
     background-color: black;
 }
+
 #title{
     margin-left: 5%;
-    text-align:left;
     color:black;
     background-color:white;
     text-decoration:underline;
