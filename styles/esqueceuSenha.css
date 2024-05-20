@@ -4,7 +4,8 @@ body {
     display: flex;
     justify-content: center;
     height: 100vh;
-    margin-top: 6%;
+    margin-top: -7%;
+    margin-bottom: 15%;
 }
 
 button {
@@ -27,23 +28,21 @@ button:hover {
     margin-top: 5px;
 }
 
-#foto img {
-    border-radius: 50%;
-    border-color: rgb(204, 204, 204);
-    border-width: 3px;
-    border-style:solid;
-    width: 100px;
-    margin-bottom: 5%;
-}
-
-#foto {
-    text-align: center;
-}
-
-#cadastro {
+#trocar {
   padding: 10px 20px;
   color: #474747;
-  font-size: 24;
+  font-size: 20;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  margin-top: 0px;
+  letter-spacing: 2px
+}
+
+texto {
+  padding: 10px 20px;
+  color: #474747;
+  font-size: 10;
   text-decoration: none;
   text-transform: uppercase;
   overflow: hidden;
@@ -60,13 +59,6 @@ button:hover {
   overflow: hidden;
   margin-top: 0px;
   letter-spacing: 2px
-}
-
-.ESS {
-    color: #000000;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top: 10px;
 }
 
 .login-box {
@@ -132,7 +124,7 @@ button:hover {
     letter-spacing: 2px
 }
   
-  .login-box a span {
+.login-box a span {
     position: absolute;
     display: block;
 }
@@ -145,49 +137,4 @@ button:hover {
     height: 2px;
     background: linear-gradient(90deg, transparent, #ffffff);
     animation: btn-anim1 2s linear infinite;
-}
-
-.b {
-    color: red;
-}
-
-.date-box {
-    position: relative;
-}
-  
-.date-box input {
-    width: 100%;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #ffffff;
-    margin-bottom: 25px;
-    border: none;
-    border-bottom: 1px solid #000000;
-    outline: none;
-    background: transparent;
-}
-  
-.date-box label {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #474747;
-    pointer-events: none;
-    transition: .5s;
-}
-  
-.date-box input:focus ~ label,
-.date-box input:valid ~ label {
-    top: -20px;
-    left: 0;
-    color: #696969;
-    font-size: 12px;
-}
-
-.date-box input:focus,
-.date-box input:valid {
-    color:#696969;
-
 }
