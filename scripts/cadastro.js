@@ -14,7 +14,7 @@ function salvarDados(){
         matricula: matricula,
     }
     
-    document.getElementById('mostra-nom e').textContent = nome
+    document.getElementById('mostra-nome').textContent = nome
     document.getElementById('mostra-senha').textContent = senha
     document.getElementById('mostra-ConfirmarSenha').textContent = confirmarSenha
     document.getElementById('mostra-nascimento').textContent = nascimento
