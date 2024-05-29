@@ -13,6 +13,9 @@
         </div>
         <div class="login-box">
             <form action="" id="formulario" method="post" name="formulario">
+                <div class="darkmode">
+                    <button id="toggle-button" onclick="darkmode()">Dark Mode</button>
+                </div>
                 <div id="foto">
                     <img src="/styles/imagens/Cara.png" alt="">
                     <p id="cadastro">Cadastro</p>
@@ -42,9 +45,13 @@
                     <input type="password" name="confirmarSenha" required="confirmarSenha">
                     <label for="confirmarSenha"><b class="b">*</b>  Cofirmar Senha</label>
                 </div>
-                <button id="processa" type="button" onclick="validarFormulario()">ENTRAR</button>
+                <div id="entrar">
+                    <button id="processa">ENTRAR</button>
+                </div>
             </form>
         </div>
-    </div>    
+
+    </div>  
+    <script src="script.js"></script>  
 </body>
 </html>

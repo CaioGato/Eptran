@@ -85,7 +85,7 @@ button:hover {
     border-radius: 10px;
 }
 
-  .login-box .user-box {
+.login-box .user-box {
     position: relative;
 }
   
@@ -133,7 +133,7 @@ button:hover {
     letter-spacing: 2px
 }
   
-  .login-box a span {
+.login-box a span {
     position: absolute;
     display: block;
 }
@@ -191,4 +191,17 @@ button:hover {
 .date-box input:focus,
 .date-box input:valid {
     color:#696969;
+}
+
+.darkmode {
+    color: white;
+    margin-left: 54%;
+}
+
+.darkmode button {
+    
+}
+
+#entrar {
+    text-align: center;
 }

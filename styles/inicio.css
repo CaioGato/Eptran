@@ -50,3 +50,12 @@ button {
     background-color:white;
     text-decoration:underline;
 }
+
+.darkmode {
+    color: white;
+    margin-left: 54%;
+}
+
+.darkmode button {
+    
+}
