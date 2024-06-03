@@ -138,3 +138,12 @@ texto {
     background: linear-gradient(90deg, transparent, #ffffff);
     animation: btn-anim1 2s linear infinite;
 }
+
+.darkmode {
+    color: white;
+    margin-left: 54%;
+}
+
+.darkmode button {
+    
+}

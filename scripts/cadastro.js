@@ -23,7 +23,7 @@ function salvarDados(){
 }
 
 function validarFormulario() {
-
+    const processa = document.getElementById('processa');
     var nome = document.getElementById('nome').value.trim();
     var senha = document.getElementById('senha').value.trim();
     var confirmarSenha = document.getElementById('confirmarSenha').value.trim();
@@ -61,6 +61,24 @@ function validarFormulario() {
         return false;
     }
 
-    window.location.href = './inicio.html'
+    window.location.href = "./inicio.html"
     return true;
 }
+
+document.addEventListener('DOMContentLoaded', function darkmode() {
+    const toggleButton = document.getElementById('toggle-button');
+
+    if (localStorage.getItem('dark-mode') === 'true') {
+        document.body.classList.add('dark-mode');
+    }
+
+    toggleButton.addEventListener('click', function() {
+        document.body.classList.toggle('dark-mode');
+        
+        const isDarkMode = document.body.classList.contains('dark-mode');
+        localStorage.setItem('dark-mode', isDarkMode);
+    });
+});
+
+
+

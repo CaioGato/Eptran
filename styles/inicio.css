@@ -51,6 +51,16 @@ button {
     text-decoration:underline;
 }
 
+<<<<<<< HEAD
+.darkmode {
+    color: white;
+    margin-left: 54%;
+}
+
+.darkmode button {
+    
+}
+=======
 /* Style do sidebar, menu suspenso, porem não está 100% acertado*/
 
 /* The sidebar menu */
@@ -164,3 +174,4 @@ button {
   .show {
     display: block;
   }
+>>>>>>> 3594d4806b08d71027f55ce8494b5d964a0651ce
