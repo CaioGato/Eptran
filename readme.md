@@ -14,7 +14,7 @@
     <h2>Objetivo</h2>
       <h4>
   O objetivo desse código é transmitir conhecimento aos nosso próximos, principalmente em fase escolar sendo classificado em Series Iniciais, Series Finais e Ensino Medio, através de habilidades lúdicas.
-   a partir dos quizzes, vídeos explicativos e simulações de situações reais, o app busca ensinar regras de trânsito, sinais de trânsito, comportamento seguro e correto.
+   a partir dos quizzes, vídeos explicativos e simulações de situações reais, o app busca ensinar regras de trânsito, sinais de trânsito, comportamento seguro e correto, protagonizar ações para o bem de uma sociedade como um todo.
     </h4>
 
  
