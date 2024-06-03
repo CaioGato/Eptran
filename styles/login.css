@@ -52,17 +52,10 @@ button:hover {
   letter-spacing: 2px
 }
 
-#EPTRAN {
-  padding: 10px 20px;
-  color: #f2f2f2;
-  font-size: 34px;
-  text-decoration: none;
-  text-transform: uppercase;
-  overflow: hidden;
-  margin-top: 0px;
-  letter-spacing: 2px
+#EPTRAN{
+  justify-content: center;
+  display: flex;
 }
-
 .ESS {
     color: #000000;
     text-align: center;
