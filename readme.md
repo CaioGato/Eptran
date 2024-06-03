@@ -11,10 +11,11 @@
     Em conclusão contribuindo para a formação e desenvolvimentos de cidadãos. De igual maneira se torna essencial a educação não somente de adultos, mas influenciar a partir de diversas abordagens crianças e adolescentes 
     desde cedo demonstrando o caminho que devem seguir.
     </h4>
-  <h2>Pilares da Educação no Transito</h2>
-    De maneira detalhada vamos informar os 4 pilares da Educação no Trânsito:
-    <ul></ul>
-    <ul></ul>
+    <h2>Objetivo</h2>
+      <h4>
+  O objetivo desse código é transmitir conhecimento aos nosso próximos, principalmente em fase escolar sendo classificado em Series Iniciais, Series Finais e Ensino Medio, através de habilidades lúdicas.
+   a partir dos quizzes, vídeos explicativos e simulações de situações reais, o app busca ensinar regras de trânsito, sinais de trânsito, comportamento seguro e correto.
+    </h4>
 
  
 
