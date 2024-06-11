@@ -1,8 +1,10 @@
 body {
     background-color:#ffffff;
-    background-image: url(imagens/Rua.png);
+    background-image: url(imagens/Street.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 135%;
+    background-position-y: 10%;
     height: 600px;
     margin: 0%;
 
@@ -16,10 +18,12 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-#menu{
+
+#menu {
     margin-left: 2%;
 }
-#logoPref{
+
+#logoPref {
     margin-right: 2%;
     justify-content: center;
     align-items: center;
@@ -51,7 +55,6 @@ button {
     text-decoration:underline;
 }
 
-<<<<<<< HEAD
 .darkmode {
     color: white;
     margin-left: 54%;
@@ -60,7 +63,6 @@ button {
 .darkmode button {
     
 }
-=======
 /* Style do sidebar, menu suspenso, porem não está 100% acertado*/
 
 /* The sidebar menu */
@@ -88,15 +90,15 @@ button {
   }
   
   /* When you mouse over the navigation links, change their color */
-  .sidebar a:hover {
+  .sidebar .dropbtn:hover {
     color: #F2B807;
   }
   
-  /* Position and style the close button (top right corner) */
+
   .sidebar .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
+    right:10px;
     font-size: 36px;
     margin-left: 50px;
   }
@@ -134,6 +136,15 @@ button {
     padding: 14px 16px;
     text-decoration: none;
   }
+
+  .dropbtn {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f2f2f2;
+    display: block;
+    transition: 0.3s;
+  }
   
   .dropdown {
     float: left;
@@ -156,6 +167,7 @@ button {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    margin-left: 15%;
   }
   
   .dropdown-content a {
@@ -174,4 +186,4 @@ button {
   .show {
     display: block;
   }
->>>>>>> 3594d4806b08d71027f55ce8494b5d964a0651ce
+

@@ -1,57 +1,68 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/cadastro.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/cadastro.css" />
     <title>Cadastro</title>
     <script src="/scripts/cadastro.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div>
-        <div id="EPTRAN">
-            <img src="../styles/imagens/Logos.png" alt="eptran" style="max-width: 70%;">
+      <div id="EPTRAN">
+        <img
+          src="../styles/imagens/Logos.png"
+          alt="eptran"
+          style="max-width: 70%"
+        />
+      </div>
+      <div class="login-box">
+        <div class="darkmode">
+          <button id="toggle-button" onclick="darkmode()">Dark Mode</button>
         </div>
-        <div class="login-box">
-            <div class="darkmode">
-                <button id="toggle-button" onclick="darkmode()">Dark Mode</button>
-            </div>
-            <form action="" id="formulario" method="post" name="formulario">
-                <div id="foto">
-                    <img src="/styles/imagens/Cara.png" alt="">
-                    <p id="cadastro">Cadastro</p>
-                </div>
-                <div class="user-box">
-                    <input type="text" name="nome" required="nome">
-                    <label for="nome"><b class="b">*</b>  Nome Completo</label>
-                </div>
-                    <div class="user-box">
-                        <input type="text" name="email" required="email">
-                        <label for="email"><b class="b">*</b> E-mail</label>
-                    </div>
-                <div class="date-box">
-                    <input type="date" name="nascimento" required="nascimento">
-                     <label for="nascimento"><b class="b">*</b>  Data de Nascimento</label>
-                 </div>
-                <div class="user-box">
-                    <input type="text" name="matricula" required="matricula">
-                    <label for="matricula"><b class="b">*</b> Matrícula</label>
-                </div>
-                <br>
-                <div class="user-box">
-                    <input type="password" name="senha" required="senha">
-                    <label for="senha"><b class="b">*</b>  Senha</label>
-                </div>
-                <div class="user-box">
-                    <input type="password" name="confirmarSenha" required="confirmarSenha">
-                    <label for="confirmarSenha"><b class="b">*</b>  Cofirmar Senha</label>
-                </div>
-                <div id="entrar">
-                    <button id="processa">ENTRAR</button>
-                </div>
-            </form>
-        </div>
-
-    </div>  
-    <script src="script.js"></script>  
-</body>
+        <form action="" id="formulario" method="post" name="formulario">
+          <div id="foto">
+            <img src="/styles/imagens/Cara.png" alt="" />
+            <p id="cadastro">Cadastro</p>
+          </div>
+          <div class="user-box">
+            <input type="text" name="nome" required="nome" />
+            <label for="nome"><b class="b">*</b> Nome Completo</label>
+          </div>
+          <div class="user-box">
+            <input type="text" name="email" required="email" />
+            <label for="email"><b class="b">*</b> E-mail</label>
+          </div>
+          <div class="date-box">
+            <input type="date" name="nascimento" required="nascimento" />
+            <label for="nascimento"
+              ><b class="b">*</b> Data de Nascimento</label
+            >
+          </div>
+          <div class="user-box">
+            <input type="text" name="matricula" required="matricula" />
+            <label for="matricula"><b class="b">*</b> Matrícula</label>
+          </div>
+          <br />
+          <div class="user-box">
+            <input type="password" name="senha" required="senha" />
+            <label for="senha"><b class="b">*</b> Senha</label>
+          </div>
+          <div class="user-box">
+            <input
+              type="password"
+              name="confirmarSenha"
+              required="confirmarSenha"
+            />
+            <label for="confirmarSenha"
+              ><b class="b">*</b> Cofirmar Senha</label
+            >
+          </div>
+          <div id="entrar">
+            <button id="processa">ENTRAR</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
