@@ -16,6 +16,14 @@
   O objetivo desse código é transmitir conhecimento aos nosso próximos, principalmente em fase escolar sendo classificado em Series Iniciais, Series Finais e Ensino Medio, através de habilidades lúdicas.
    a partir dos quizzes, vídeos explicativos e simulações de situações reais, o app busca ensinar regras de trânsito, sinais de trânsito, comportamento seguro e correto, e logicamente protagonizar ações para o bem de uma sociedade como um todo.
     </h4>
+    <h2>Realizado por:</h2>
+    <ul>
+      <li>Caio Henrique de Borba </li>
+      <li>Cauãn Truppel</li>
+      <li>Murilo Gonçalves Figueiredo</li>
+      <li>João Oliveira</li>
+    </ul>
+    
 
  
 
